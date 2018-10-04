@@ -822,15 +822,15 @@ ________
 	      if(a==1)
 
 		    {  clrscr();
-		     cout<<"Give me the Diamentions, I'll Give you its Area :\n";
+		     cout<<"Give me the Dimentions, I'll Give you its Area :\n";
 
 		     cout<<"First give me its length in meter\n";
 		     int l=0;
 		     cin>>l;
-		     cout<<"good.\now tell me its breadth\n";
+		     cout<<"good.\n now tell me its breadth\n";
 		     int b=0;
 		     cin>>b;
-		     cout<<"Thanks.\nnow let me calculate its AREA...in a count of 3 2 1";
+		     cout<<"Thanks.\n now let me calculate its AREA...in a count of 3 2 1";
 		     delay(3000);
 		     cout<<"Got it!"<<endl;
 		     int ar=0;
@@ -849,10 +849,10 @@ ________
 		     cout<<"so,what are you waiting for??\ntell me it's side..\n";
 		     int q=0;
 		     cin>>q;
-		     cout<<"thanks\nnow wait....here comes your area...\n";
+		     cout<<"thanks\n now wait....here comes your area...\n";
 		     int aa=q*q;
 		     if(q*q<100)
-		      cout<<"thats a small square... Its area is just "<<aa<<" square meter\n";
+		      cout<<"that's a small square... Its area is just "<<aa<<" square meter\n";
 		     else
 		      cout<<"Thats what I call a big square...It's area is "<<aa<<" square meter\nI was shocked by seeing its area.\n";
 		      getch();
@@ -860,7 +860,7 @@ ________
 		     delay(1000);
 		     clrscr();
 		     }
-	   if(a==3){  cout<<"Triangles are beautiful,..so if you tell me its height,\ni'll find its area\n";
+	   if(a==3){  cout<<"Triangles are beautiful,..so if you tell me its height,\nI'll find its area\n";
 		     cout<<"So, tell me its height\n";
 		     int h=0;
 		     cin>>h;
@@ -917,8 +917,8 @@ ________
 	  pp=a+b+c+d+f;
 	  if(pp/5<60)
 	   {
-	    cout<<"i guss he should concentrete some more on his studies....\n";
-	    cout<<"He scored just "<<pp/5<<"% marks\nthats too poor\n";
+	    cout<<"i guess he should concentrete some more on his studies....\n";
+	    cout<<"He scored just "<<pp/5<<"% marks\nthats too poor :(\n";
 	   }
 	  else if(pp/5<80)
 	   {
@@ -928,7 +928,7 @@ ________
 	  else
 	   {
 	    cout<<"he is marvioous!! He got a nice brain...he is using it\n";
-	    cout<<"He scored "<<pp/5<<" % marks ,which is excelent.\n";
+	    cout<<"He scored "<<pp/5<<" % marks ,which is excellent.\n";
 	   }
 	   getch();
 		int gdriver = DETECT,gmode;
@@ -943,7 +943,7 @@ ________
 	  pp=a+b+c+d+f+e;
 	  if(pp/6<60)
 	   {
-	    cout<<"i guss he should concentrete some more on his studies....\n";
+	    cout<<"i guess he should concentrete some more on his studies....\n";
 	    cout<<"He scored just "<<pp/6<<"% marks\nthats too poor\n";
 	   }
 	  else if(pp/6<80)
